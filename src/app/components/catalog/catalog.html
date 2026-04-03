@@ -1,0 +1,8 @@
+@for (item of items; track item) {
+    <app-item-cart
+        [title]="item.title"
+        [price]="item.price"
+        category="porn"
+        (itemAdded)="parentItemAdded($event)"
+    ></app-item-cart>
+}

@@ -8,11 +8,15 @@ import { RadioButtonForm } from './components/radio-button-form/radio-button-for
 import { CheckBoxForm } from './components/check-box-form/check-box-form';
 import { CartForm } from './components/cart-form/cart-form';
 import { ContentProjection } from './components/content-projection/content-projection';
+import { LifecycleHooks } from './components/lifecycle-hooks/lifecycle-hooks';
+import { Parent } from './components/lifecycle-hooks/parent/parent';
+import { Catalog } from './components/catalog/catalog';
+import { ObservableDemo } from './components/observable/observable';
 
 @Component({
     selector: 'app-root',
     // imports: [RouterOutlet, Todo, TemplateDrivenForm, ReactiveForm, RadioButtonForm, CheckBoxForm, CartForm],
-    imports: [RouterOutlet, CartForm, ContentProjection],
+    imports: [RouterOutlet, CartForm, ContentProjection, Parent, Catalog, ObservableDemo],
     templateUrl: './app.html',
     styleUrl: './app.scss',
 })
