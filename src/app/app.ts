@@ -12,11 +12,22 @@ import { LifecycleHooks } from './components/lifecycle-hooks/lifecycle-hooks';
 import { Parent } from './components/lifecycle-hooks/parent/parent';
 import { Catalog } from './components/catalog/catalog';
 import { ObservableDemo } from './components/observable/observable';
+import { Unsubscribe } from './components/unsubscribe/unsubscribe';
+import { SubjectDemo } from './components/subject/subject';
 
 @Component({
     selector: 'app-root',
     // imports: [RouterOutlet, Todo, TemplateDrivenForm, ReactiveForm, RadioButtonForm, CheckBoxForm, CartForm],
-    imports: [RouterOutlet, CartForm, ContentProjection, Parent, Catalog, ObservableDemo],
+    imports: [
+        RouterOutlet,
+        CartForm,
+        ContentProjection,
+        Parent,
+        Catalog,
+        ObservableDemo,
+        Unsubscribe,
+        SubjectDemo,
+    ],
     templateUrl: './app.html',
     styleUrl: './app.scss',
 })
