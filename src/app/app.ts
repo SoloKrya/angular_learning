@@ -14,6 +14,8 @@ import { Catalog } from './components/catalog/catalog';
 import { ObservableDemo } from './components/observable/observable';
 import { Unsubscribe } from './components/unsubscribe/unsubscribe';
 import { SubjectDemo } from './components/subject/subject';
+import { Pipe } from './components/pipe/pipe';
+import { Nav } from './components/nav/nav';
 
 @Component({
     selector: 'app-root',
@@ -27,6 +29,8 @@ import { SubjectDemo } from './components/subject/subject';
         ObservableDemo,
         Unsubscribe,
         SubjectDemo,
+        Pipe,
+        Nav,
     ],
     templateUrl: './app.html',
     styleUrl: './app.scss',

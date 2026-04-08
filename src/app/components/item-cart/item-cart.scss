@@ -1,0 +1,15 @@
+article {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+p {
+    display: flex;
+    align-self: center;
+}

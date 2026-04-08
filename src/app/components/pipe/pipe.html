@@ -1,0 +1,8 @@
+<p>{{ subjectString$ | async }}</p>
+<p>{{ myString | uppercase }}</p>
+<p>{{ myNumber | double }}</p>
+<p>{{ subjectNumber$ | async | double }}</p>
+<p>{{ 'Hello, world' | cut }}</p>
+<p>{{ 'Hello, world' | cut: 5 }}</p>
+<p>{{ 'Hello, world' | cut: undefined : '...vsyo, konec' }}</p>
+<p>{{ 'Hello, world' | betterCut: { suffix: '|zhops' } }}</p>
